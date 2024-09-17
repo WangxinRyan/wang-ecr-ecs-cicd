@@ -3,8 +3,8 @@ name: Deploy to Amazon ECS
 on:
   push:
     branches:
-      - dev
-      - uat
+      - main
+      
                                                
 jobs:
   deploy:
